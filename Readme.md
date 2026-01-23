@@ -21,6 +21,20 @@ Create a new Microsoft Foundry resource and project in [Azure Portal](https://po
 
 In Foundry Portal (new portal), deploy Azure OpenAI model which is supported in Azure OpenAI Responses API. (See [here](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/how-to/responses?view=foundry&tabs=python-key#model-support) for the supported models.)
 
+Install the required Python modules as follows.
+
+```
+# required in all exercises
+pip install agent-framework
+# required in lesson 2
+pip install azure-monitor-opentelemetry
+```
+
+Throughtout this workshop, we'll use Azure CLI credential.  
+For this reason, install Azure CLI (```az``` command), and login to Azure by running ```az login``` command.
+
+> Note : You cannot use API key in new ```azure-ai-projects```. (See [here](https://learn.microsoft.com/en-us/answers/questions/5587848/how-to-use-api-key-in-azure-ai-foundry).) Use Entra ID users (or service principal) in production.
+
 Clone this repository in your working environment.
 
 ```
@@ -30,20 +44,6 @@ cd agent-framework-workshop-with-foundry
 
 Copy ```.env.example``` as ```.env```, open ```.env``` in editor, and set variables according to your environment.  
 The variable ```AZURE_AI_PROJECT_ENDPOINT``` has the format - "```https://[FOUNDRY-RESOURCE-NAME].services.ai.azure.com/api/projects/[PROJECT-NAME]```" (This can be retrieved from home in Microsoft Foundry dashboard.)
-
-Throughtout this workshop, we'll use Azure CLI credential.  
-For this reason, install Azure CLI (```az``` command), and login to Azure by running ```az login``` command.
-
-> Note : You cannot use API key in new ```azure-ai-projects```. (See [here](https://learn.microsoft.com/en-us/answers/questions/5587848/how-to-use-api-key-in-azure-ai-foundry).) Use Entra ID users (or service principal) in production.
-
-Install the required Python modules as follows.
-
-```
-# required in all exercises
-pip install agent-framework
-# required in lesson 2
-pip install azure-monitor-opentelemetry
-```
 
 Run notebooks.
 
