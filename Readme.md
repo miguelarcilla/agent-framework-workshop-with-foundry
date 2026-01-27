@@ -53,7 +53,7 @@ jupyter notebook
 
 In Lesson 9, we also need another preparations and settings. (See [Lesson9](./09_hosted_agents.ipynb) for details.)
 
-> Note : All source code in this repository is experimented by using ```agent-framework==1.0.0b260116```. (Sorry, but it might change frequently, because it's in preview now.)
+> Note : All source code in this repository is experimented by using ```agent-framework==1.0.0b260123```. (Sorry, but it might change frequently, because it's in preview now.)
 
 > Note : By installing ```agent-framework```, the required sub-packages in Agent Framework are all installed. See [here](https://github.com/microsoft/agent-framework/tree/main/python/packages) for the list of sub-packages.
 
