@@ -17,7 +17,8 @@ More advanced topics - such as, multi-agent design patterns, custom objects, etc
 
 Prepare (create) Microsoft Azure subscription.
 
-Create a new Microsoft Foundry resource and project in [Azure Portal](https://portal.azure.com/). In this workshop, we need new Foundry v2 project, not v1 project.
+Create a new Microsoft Foundry resource and project in [Azure Portal](https://portal.azure.com/). In this workshop, we need new Foundry v2 project, not v1 project.<br>
+You will find that this creates 2 resources in Microsoft Azure - Foundry resource (parent resource) and Foundry project resource.
 
 In Foundry Portal (new portal), deploy Azure OpenAI model which is supported in Azure OpenAI Responses API. (See [here](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/how-to/responses?view=foundry&tabs=python-key#model-support) for the supported models.)
 
@@ -25,7 +26,7 @@ Install the required Python modules as follows.
 
 ```
 # required in all exercises
-pip install agent-framework
+pip install agent-framework --pre
 # required in lesson 2
 pip install azure-monitor-opentelemetry
 ```
@@ -53,7 +54,7 @@ jupyter notebook
 
 In Lesson 9, we also need another preparations and settings. (See [Lesson9](./09_hosted_agents.ipynb) for details.)
 
-> Note : All source code in this repository is experimented by using ```agent-framework==1.0.0b260123```. (Sorry, but it might change frequently, because it's in preview now.)
+> Note : All source code in this repository is experimented by using ```agent-framework==1.0.0b260130``` and azd extension ```azure.ai.agents==0.1.6-preview```. (Because it's in preview now, the version will be frequently updated.)
 
 > Note : By installing ```agent-framework```, the required sub-packages in Agent Framework are all installed. See [here](https://github.com/microsoft/agent-framework/tree/main/python/packages) for the list of sub-packages.
 
