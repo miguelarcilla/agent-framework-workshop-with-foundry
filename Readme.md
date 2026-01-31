@@ -54,7 +54,7 @@ jupyter notebook
 
 In Lesson 9, we also need another preparations and settings. (See [Lesson9](./09_hosted_agents.ipynb) for details.)
 
-> Note : All source code in this repository is experimented by using ```agent-framework==1.0.0b260130``` and azd extension ```azure.ai.agents==0.1.6-preview```. (Because it's in preview now, the version will be frequently updated.)
+> Note : All source code in this repository is experimented by using ```agent-framework==1.0.0b260130```. (Because it's in preview now, the version will be frequently updated.)
 
 > Note : By installing ```agent-framework```, the required sub-packages in Agent Framework are all installed. See [here](https://github.com/microsoft/agent-framework/tree/main/python/packages) for the list of sub-packages.
 
@@ -63,3 +63,5 @@ In Lesson 9, we also need another preparations and settings. (See [Lesson9](./09
 The purpose of this repository is to provide step-by-step learning with clear explanation (background) to use fundamental Agent Framework functionalities with Microsoft Foundry (Foundry v2).
 
 In [official GitHub samples](https://github.com/microsoft/agent-framework/tree/main/python/samples/getting_started/agents/azure_ai), you can find more advanced code samples to provide a wide variety of scenarios. (Several examples in this repository are based on this official repository.)
+
+Tsuyoshi Matsuzaki @ Microsoft Asia
