@@ -64,4 +64,4 @@ The purpose of this repository is to provide step-by-step learning with clear ex
 
 In [official GitHub samples](https://github.com/microsoft/agent-framework/tree/main/python/samples/getting_started/agents/azure_ai), you can find more advanced code samples to provide a wide variety of scenarios. (Several examples in this repository are based on this official repository.)
 
-Tsuyoshi Matsuzaki @ Microsoft Asia
+*Tsuyoshi Matsuzaki @ Microsoft Asia*
