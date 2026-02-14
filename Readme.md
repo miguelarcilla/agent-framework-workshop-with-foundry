@@ -5,8 +5,8 @@ More advanced topics - such as, multi-agent design patterns, custom objects, etc
 
 1. [Getting started](./01_get_started.ipynb)
 2. [Trace Agent](./02_trace.ipynb)
-3. [Thread (Conversation)](./03_thread.ipynb)
-4. [Hosted Tools](./04_hosted_tools.ipynb)
+3. [Thread (Conversation)](./03_session.ipynb)
+4. [Tools in Responses API](./04_hosted_tools.ipynb)
 5. [Foundry Tools](./05_foundry_tools.ipynb)
 6. [Memory and personalization (Context Provider)](./06_memory.ipynb)
 7. [Workflows](./07_workflow.ipynb)
@@ -17,9 +17,11 @@ More advanced topics - such as, multi-agent design patterns, custom objects, etc
 
 Prepare (create) Microsoft Azure subscription.
 
-Create a new Microsoft Foundry resource and project in [Azure Portal](https://portal.azure.com/). In this workshop, we need new Foundry v2 project, not v1 project.<br>
-You will find that this creates 2 resources in Microsoft Azure - Foundry resource (parent resource) and Foundry project resource.
+Create a new Microsoft Foundry resource in [Azure Portal](https://portal.azure.com/).<br>
+You will find that this operation creates 2 resources in Microsoft Azure - Foundry resource (parent resource) and Foundry project resource.
 
+Next, go to Microsoft Foundry Portal for Foundry project you have just created.<br>
+In this workshop, we need new Foundry v2 project, not v1 project. So toggle on "New Foundry" to go to new Foundry Portal.<br>
 In Foundry Portal (new portal), deploy Azure OpenAI model which is supported in Azure OpenAI Responses API. (See [here](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/how-to/responses?view=foundry&tabs=python-key#model-support) for the supported models.)
 
 Install the required Python modules as follows.
