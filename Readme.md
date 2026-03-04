@@ -9,9 +9,10 @@ More advanced topics - such as, multi-agent design patterns, custom objects, etc
 4. [Tools in Responses API](./04_hosted_tools.ipynb)
 5. [Foundry Tools](./05_foundry_tools.ipynb)
 6. [Memory and personalization (Context Provider)](./06_memory.ipynb)
-7. [Workflows](./07_workflow.ipynb)
-8. [Human-in-the-loop (HITL)](./08_human_in_the_loop.ipynb)
-9. [Hosted Agents in Microsoft Foundry](./09_hosted_agents.ipynb)
+7. [Agent Skills](./07_skills.ipynb)
+8. [Workflows](./08_workflow.ipynb)
+9. [Human-in-the-loop (HITL)](./09_human_in_the_loop.ipynb)
+10. [Hosted Agents in Microsoft Foundry](./10_hosted_agents.ipynb)
 
 ## Prerequisites
 
@@ -57,7 +58,7 @@ Run notebooks.
 jupyter notebook
 ```
 
-In Lesson 9, we also need another preparations and settings. (See [Lesson9](./09_hosted_agents.ipynb) for details.)
+In Lesson 10, we also need another preparations and settings. (See [Lesson10](./10_hosted_agents.ipynb) for details.)
 
 > Note : By installing ```agent-framework```, the required sub-packages in Agent Framework are all installed. See [here](https://github.com/microsoft/agent-framework/tree/main/python/packages) for the list of sub-packages.
 
